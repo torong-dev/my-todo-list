@@ -9,7 +9,7 @@ export default function MyTodoList() {
     { id: uuidv4(), title: "코드카타", detail: "문제: 수박수박수박수박수" },
     { id: uuidv4(), title: "React 공부", detail: "반복되는 컴포넌트 처리하기" },
     { id: uuidv4(), title: "Tailwind CSS 공부", detail: "Borders" },
-    { id: uuidv4(), title: "React 스터디", detail: "리액트를 다루는 기술" },
+    // { id: uuidv4(), title: "React 스터디", detail: "리액트를 다루는 기술" },
   ]);
 
   const handleChangeTitle = (e) => {
