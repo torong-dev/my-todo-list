@@ -65,7 +65,7 @@ export default function MyTodoList() {
       </header>
       <section>
         <div className="flex justify-between p-8 px-10 space-x-8 font-bold text-black bg-blue-200 rounded-md">
-          <p class="flex items-center">
+          <p className="flex items-center">
             <span class="mr-4">제목</span>
             <input
               type="text"
