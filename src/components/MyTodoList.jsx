@@ -66,17 +66,17 @@ export default function MyTodoList() {
       <section>
         <div className="flex justify-between p-8 px-10 space-x-8 font-bold text-black bg-blue-200 rounded-md">
           <p className="flex items-center">
-            <span class="mr-4">제목</span>
+            <span className="mr-4">제목</span>
             <input
               type="text"
-              class="text-black font-normal p-2 rounded-xl mr-8"
+              className="p-2 mr-8 font-normal text-black rounded-xl"
               value={title}
               onChange={handleChangeTitle}
             />
-            <span class="mr-4">내용</span>
+            <span className="mr-4">내용</span>
             <input
               type="text"
-              class="text-black font-normal p-2 rounded-xl"
+              className="p-2 font-normal text-black rounded-xl"
               value={detail}
               onChange={handleChangeDetail}
             />
